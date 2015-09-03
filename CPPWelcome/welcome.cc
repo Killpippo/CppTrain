@@ -41,8 +41,6 @@ int main(int argc, char** argv) {
     int arg;
     fflush(stdout);
     
-    vbxcvb   xcvb
-    
     scanf("%d", &arg);
     
     printf("factorial(%d) = %ld\n", arg, factorial(arg));
