@@ -36,9 +36,10 @@ long factorial(int arg) {
     return result;
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv)
+{
     printf("Type an integer and press Enter to calculate the integer's factorial: \n");
-    int arg;
+    int arg;    
     fflush(stdout);
     
     scanf("%d", &arg);
